@@ -21,6 +21,4 @@ app.use("/api",router)
 const PORT=process.env.PORT
 
 
-app.listen(PORT,()=>{
-console.log(`port running on ${PORT}`)
-})
+export default app;
